@@ -40,7 +40,7 @@ window.onload = function() {
 			'icon-hourglass' : '&#xe01f;',
 			'icon-lock' : '&#xe020;',
 			'icon-megaphone' : '&#xe021;',
-			'icon-SABR' : '&#xe022;',
+			'icon-shield' : '&#xe022;',
 			'icon-trophy' : '&#xe023;',
 			'icon-flag' : '&#xe024;',
 			'icon-map' : '&#xe025;',
