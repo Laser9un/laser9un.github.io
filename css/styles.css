@@ -1483,7 +1483,7 @@ padding-bottom:0px !important;
 color:white !important;
 }
 
-.mail1:before { content: '\f0e0'; }
+.mail1:before { content: '\f199'; }
 .twitter1:before { content: '\f081'; }
 .reddit1:before {content: '\f1a2';}
 .github1:before { content: '\f092';}
