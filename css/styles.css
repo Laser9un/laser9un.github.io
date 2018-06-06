@@ -1484,19 +1484,19 @@ color:white !important;
 }
 
 .mail1:before { content: '\f199'; }
-.telegram:before { content: '\f2c6'; }
+.telegram1:before { content: '\f2c6'; }
 .twitter1:before { content: '\f081'; }
 .reddit1:before {content: '\f1a2';}
 .github1:before { content: '\f092';}
 .bitcointalk1:before{content: '\f15a';}
 .medium1:before{content: '\f23a';}
 .dcdl{width: 26px;padding-bottom: 5px}
-.mail1,.telegram,.twitter1,.reddit1,.github1,.bitcointalk1,.discord1,.medium1{
+.mail1,.telegram1,.twitter1,.reddit1,.github1,.bitcointalk1,.discord1,.medium1{
 color:black;
 display:inline;
 }
 
-.mail1,.telegram,.medium1,.bitcointalk1,.discord1,.twitter1,.reddit1,.github1:before {
+.mail1,.telegram1,.medium1,.bitcointalk1,.discord1,.twitter1,.reddit1,.github1:before {
   font-family: fontawesome;
   font-weight: normal;
   font-size:24px;
