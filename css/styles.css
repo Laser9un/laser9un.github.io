@@ -534,16 +534,17 @@ Features-stack
 
 .devices {
   position: relative; }
-#features{
-  background: #ffffff;
+  
+#techinfo{
+  background: #131415;
 }
 .earthimg{
   width: 90%;left: 200px;height: auto;
 }
-#features .iphone-wrap{
+#techinfo .iphone-wrap{
   bottom:350px;left: 60%;
 }
-#features .responsive-feature-img{
+#techinfo .responsive-feature-img{
   width:115%
   ;top:10px;
   position:relative;
@@ -554,18 +555,18 @@ Features-stack
 .bs{
   margin-top:-15px;
 }
-#techinfo{
+#moreinfo{
   background: #131415;
 }
-#techinfo .leftcol h3, #techinfo .leftcol  h5{
+#moreinfo .leftcol h3, #techinfo .leftcol  h5{
   color:white;
   text-align:left;
 }
-#techinfo .rightcol h3{
+#moreinfo .rightcol h3{
   color:white;
   text-align:right;
 }
-#techinfo .rightcol h5{
+#moreinfo .rightcol h5{
   color:lightblue;
   text-align:right;
 }
