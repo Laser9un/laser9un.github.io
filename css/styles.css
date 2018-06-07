@@ -538,7 +538,7 @@ Features-stack
   background: #ffffff;
 }
 .earthimg{
-  width: 90%;left: 200px;height: auto;
+  width: 90%;left: 250px;height: auto;
 }
 #features .iphone-wrap{
   bottom:350px;left: 60%;
@@ -553,6 +553,9 @@ Features-stack
 }
 .bs{
   margin-top:-15px;
+}
+#features{
+  background: #131415;
 }
 #techinfo .leftcol h3, #techinfo .leftcol  h5{
   color:white;
