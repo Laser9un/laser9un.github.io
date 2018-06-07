@@ -555,7 +555,7 @@ Features-stack
 .bs{
   margin-top:-15px;
 }
-#moreinfo .leftcol h3, #techinfo .leftcol  h5{
+#moreinfo .leftcol h3, #moreinfo .leftcol  h5{
   color:white;
   text-align:left;
 }
