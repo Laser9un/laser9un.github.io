@@ -382,6 +382,7 @@ Hero
     font-weight: 300;
     margin-bottom: 80px; }
   .hero .hero-content {
+	color: #fff;
     padding-top: 20%}
 
 .navigation {
