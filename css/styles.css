@@ -16,7 +16,7 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: 300;
-  color: #FFFFFF; }
+  color: #3D4351; }
 
 h3 {
   font-size: 24px;
@@ -351,13 +351,13 @@ Hero
 ========================================================================== */
 .hero {
   height: 750px;
-  background: url("../img/SABRmbg2.png") center center;
+  background: url("../img/SHIELDmbg2.png") center center;
   background-size: cover;
   position: relative; }
   @media screen and (max-width:850px){
     .hero{
       height: 750px;
-      background: url("../img/SABRmbg3.png") center center;
+      background: url("../img/SHIELDmbg3.png") center center;
       background-size: cover;
       position: relative;
     }
@@ -365,7 +365,7 @@ Hero
   @media screen and (max-width:480px){
     .hero{
       height: 750px;
-      background: url("../img/SABRmbgmobil2.png") center center;
+      background: url("../img/SHIELDmbgmobil2.png") center center;
       background-size: cover;
       position: relative;
     }
@@ -519,7 +519,7 @@ Features-stack
   .features .iphone-wrap {
     width: 350px;
     height: 620px;
-    background: url("../img/SABRconnect.png") no-repeat center center;
+    background: url("../img/SHIELDconnect.png") no-repeat center center;
     position: absolute;
     left: 530px;
     bottom: 150px;
@@ -534,17 +534,16 @@ Features-stack
 
 .devices {
   position: relative; }
-  
-#techinfo{
+#features{
   background: #131415;
 }
 .earthimg{
   width: 90%;left: 200px;height: auto;
 }
-#techinfo .iphone-wrap{
+#features .iphone-wrap{
   bottom:350px;left: 60%;
 }
-#techinfo .responsive-feature-img{
+#features .responsive-feature-img{
   width:115%
   ;top:10px;
   position:relative;
@@ -555,15 +554,15 @@ Features-stack
 .bs{
   margin-top:-15px;
 }
-#moreinfo .leftcol h3, #moreinfo .leftcol  h5{
+#techinfo .leftcol h3, #techinfo .leftcol  h5{
   color:white;
   text-align:left;
 }
-#moreinfo .rightcol h3{
+#techinfo .rightcol h3{
   color:white;
   text-align:right;
 }
-#moreinfo .rightcol h5{
+#techinfo .rightcol h5{
   color:lightblue;
   text-align:right;
 }
@@ -586,7 +585,7 @@ Features-stack
     position: absolute;
     width: 922px;
     height: 537px;
-    background: url("../img/SABRwallet.png") no-repeat center center;
+    background: url("../img/SHIELDwallet.png") no-repeat center center;
     top: 114px;
     z-index: 4;
     left: 50%; }
@@ -598,7 +597,7 @@ Features-stack
 ========================================================================== */
 .hero-strip {
   margin-top: 120px;
-  background: #333844 url("../img/SABRpolygonalbg.jpg") no-repeat center center;
+  background: #333844 url("../img/SHIELDpolygonalbg.jpg") no-repeat center center;
   padding-bottom: 190px;
   position: relative; }
   .hero-strip i {
@@ -912,7 +911,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-mobile, .icon-laptop, .icon-desktop, .icon-tablet, .icon-phone, .icon-document, .icon-documents, .icon-search, .icon-clipboard, .icon-newspaper, .icon-notebook, .icon-book-open, .icon-browser, .icon-calendar, .icon-presentation, .icon-picture, .icon-pictures, .icon-video, .icon-camera, .icon-printer, .icon-toolbox, .icon-briefcase, .icon-wallet, .icon-gift, .icon-bargraph, .icon-grid, .icon-expand, .icon-focus, .icon-edit, .icon-adjustments, .icon-ribbon, .icon-hourglass, .icon-lock, .icon-megaphone, .icon-SABR, .icon-trophy, .icon-flag, .icon-map, .icon-puzzle, .icon-basket, .icon-envelope, .icon-streetsign, .icon-telescope, .icon-gears, .icon-key, .icon-paperclip, .icon-attachment, .icon-pricetags, .icon-lightbulb, .icon-layers, .icon-pencil, .icon-tools, .icon-tools-2, .icon-scissors, .icon-paintbrush, .icon-magnifying-glass, .icon-circle-compass, .icon-linegraph, .icon-mic, .icon-strategy, .icon-beaker, .icon-caution, .icon-recycle, .icon-anchor, .icon-profile-male, .icon-profile-female, .icon-bike, .icon-wine, .icon-hotairballoon, .icon-globe, .icon-genius, .icon-map-pin, .icon-dial, .icon-chat, .icon-heart, .icon-cloud, .icon-upload, .icon-download, .icon-target, .icon-hazardous, .icon-piechart, .icon-speedometer, .icon-global, .icon-compass, .icon-lifesaver, .icon-clock, .icon-aperture, .icon-quote, .icon-scope, .icon-alarmclock, .icon-refresh, .icon-happy, .icon-sad, .icon-facebook, .icon-twitter, .icon-googleplus, .icon-rss, .icon-tumblr, .icon-linkedin, .icon-dribbble {
+.icon-mobile, .icon-laptop, .icon-desktop, .icon-tablet, .icon-phone, .icon-document, .icon-documents, .icon-search, .icon-clipboard, .icon-newspaper, .icon-notebook, .icon-book-open, .icon-browser, .icon-calendar, .icon-presentation, .icon-picture, .icon-pictures, .icon-video, .icon-camera, .icon-printer, .icon-toolbox, .icon-briefcase, .icon-wallet, .icon-gift, .icon-bargraph, .icon-grid, .icon-expand, .icon-focus, .icon-edit, .icon-adjustments, .icon-ribbon, .icon-hourglass, .icon-lock, .icon-megaphone, .icon-shield, .icon-trophy, .icon-flag, .icon-map, .icon-puzzle, .icon-basket, .icon-envelope, .icon-streetsign, .icon-telescope, .icon-gears, .icon-key, .icon-paperclip, .icon-attachment, .icon-pricetags, .icon-lightbulb, .icon-layers, .icon-pencil, .icon-tools, .icon-tools-2, .icon-scissors, .icon-paintbrush, .icon-magnifying-glass, .icon-circle-compass, .icon-linegraph, .icon-mic, .icon-strategy, .icon-beaker, .icon-caution, .icon-recycle, .icon-anchor, .icon-profile-male, .icon-profile-female, .icon-bike, .icon-wine, .icon-hotairballoon, .icon-globe, .icon-genius, .icon-map-pin, .icon-dial, .icon-chat, .icon-heart, .icon-cloud, .icon-upload, .icon-download, .icon-target, .icon-hazardous, .icon-piechart, .icon-speedometer, .icon-global, .icon-compass, .icon-lifesaver, .icon-clock, .icon-aperture, .icon-quote, .icon-scope, .icon-alarmclock, .icon-refresh, .icon-happy, .icon-sad, .icon-facebook, .icon-twitter, .icon-googleplus, .icon-rss, .icon-tumblr, .icon-linkedin, .icon-dribbble {
   font-family: 'et-line';
   speak: none;
   font-style: normal;
@@ -1026,7 +1025,7 @@ you can use the generic selector below, but it's slower:
 .icon-megaphone:before {
   content: "\e021"; }
 
-.icon-SABR:before {
+.icon-shield:before {
   content: "\e022"; }
 
 .icon-trophy:before {
@@ -1330,14 +1329,14 @@ border:2px solid #c1e94f;border-radius:16px;background:#232731;
 }
 
 
-.BOD{
+.roadmap{
 background: rgba(239, 239, 239, 0.75);
 }
 
 
-.wallets{background: url("../img/SABRwalletbg.jpg")  fixed; width: 100%; height: 100%;}
+.wallets{background: url("../img/SHIELDwalletbg.jpg")  fixed; width: 100%; height: 100%;}
 
-.exchanges{background: url("../img/SABRexchangebg.png") fixed; width: 100%; height: 80%;}
+.exchanges{background: url("../img/SHIELDexchangebg.png") fixed; width: 100%; height: 80%;}
 
 *, *:before, *:after {
   margin: 0;
@@ -1484,20 +1483,18 @@ padding-bottom:0px !important;
 color:white !important;
 }
 
-.mail1:before { content: '\f199'; }
-.telegram1:before { content: '\f2c6'; }
 .twitter1:before { content: '\f081'; }
 .reddit1:before {content: '\f1a2';}
 .github1:before { content: '\f092';}
 .bitcointalk1:before{content: '\f15a';}
 .medium1:before{content: '\f23a';}
 .dcdl{width: 26px;padding-bottom: 5px}
-.mail1,.telegram1,.twitter1,.reddit1,.github1,.bitcointalk1,.discord1,.medium1{
+.twitter1,.reddit1,.github1,.bitcointalk1,.discord1,.medium1{
 color:black;
 display:inline;
 }
 
-.mail1,.telegram1,.medium1,.bitcointalk1,.discord1,.twitter1,.reddit1,.github1:before {
+.medium1, .bitcointalk1,.discord1,.twitter1 , .reddit1, .github1:before {
   font-family: fontawesome;
   font-weight: normal;
   font-size:24px;
