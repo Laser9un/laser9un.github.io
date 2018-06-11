@@ -1385,7 +1385,7 @@ label.wa:before {
   label.wa[for*='2']:before { content: '\f179'; }
   label.wa[for*='3']:before { content: '\f17c'; }
   label.wa[for*='4']:before { content: '\f17b'; }
-  label.wa[for*='4']:before { content: '\f10b'; }
+  label.wa[for*='5']:before { content: '\f10b'; }
 
 label.wa:hover {
   color: #e2a43f;
