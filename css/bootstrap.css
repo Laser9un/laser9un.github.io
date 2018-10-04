@@ -1142,6 +1142,10 @@ hr {
   border: 0;
   border-top: 1px solid #eee;
 }
+.img-inline {
+     display: inline;
+     padding: 10px;
+}
 .sr-only {
   position: absolute;
   width: 1px;
