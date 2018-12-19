@@ -1316,11 +1316,11 @@ you can use the generic selector below, but it's slower:
 }
 
 .buncomplete{
-border:2px solid #e9774f;border-radius:16px;background:#232731;
+border:2px solid #e9774f;border-radius:16px;background:#0e6dad;
 }
 
 .bcomplete{
-border:2px solid #c1e94f;border-radius:16px;background:#232731;
+border:2px solid #c1e94f;border-radius:16px;background:#0e6dad;
 }
 
 .time{
@@ -1436,7 +1436,7 @@ border:none;
   }
 
   .dwnldtxt{
-  color:#232731;text-align:center;padding:5px 0;
+  color:#0e6dad;text-align:center;padding:5px 0;
   }
 
 .exchangebox{
@@ -1447,7 +1447,7 @@ display:inline-block;
 }
 
 .exchangebox:hover{
-background:#232731;
+background:#0e6dad;
 box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.3);
 transition: 0.8s;
 border-radius:4px;
@@ -1460,7 +1460,7 @@ transition: 0.8s;
 .exchangename{
 text-align:center;
 padding-bottom:8px;
-color:#232731;
+color:#0e6dad;
 }
 
 .techspecs{
