@@ -21,14 +21,14 @@ h2 {
 h3 {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #0e6dad; }
+  color: #3D4351; }
 
 h4 {
   font-size: 18px; }
 
 h5 {
   font-size: 15px;
-  color: #0e6dad;
+  color: #3D4351;
   text-transform: uppercase;
   font-weight: 500; }
 
@@ -321,7 +321,7 @@ Navigation
   transition: all 300ms ease-in-out; }
 
 .nav-toggle.active span {
-  background-color: transparent; }
+  background-color: #121212; }
 
 .nav-toggle.active span:before, .nav-toggle.active span:after {
   top: 0; }
@@ -393,7 +393,7 @@ Hero
 
 .fixed, .fixed2{
   position: fixed;
-  background-color: #0e6dad;
+  background-color: #232721;
   z-index: 999;
   width: 100%; }
 
@@ -536,7 +536,7 @@ Features-stack
   position: relative; }
   
 #techinfo{
-  background: #0e6dad;
+  background: #ffffff;
 }
 .earthimg{
   width: 90%;left: 200px;height: auto;
@@ -598,7 +598,7 @@ Features-stack
 ========================================================================== */
 .hero-strip {
   margin-top: 120px;
-  background: #0e6dad url("../img/SABRpolygonalbg.jpg") no-repeat center center;
+  background: #ffffff url("../img/SABRpolygonalbg.jpg") no-repeat center center;
   padding-bottom: 190px;
   position: relative; }
   .hero-strip i {
@@ -693,7 +693,7 @@ Features-stack
   .blog figcaption a.blog-post-title {
     color: rgba(28, 54, 83, 0.6); }
   .blog figcaption a.blog-post-title:hover, .blog figcaption a.blog-post-title:focus {
-    color: #0e6dad; }
+    color: #3D4351; }
 
 /* ==========================================================================
 .testimonial-slider
@@ -815,7 +815,7 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #0e6dad;
+  background-color: #232721;
   position: relative; }
   footer p {
     color: #ACB1B4;
@@ -845,7 +845,7 @@ footer {
     margin: 0 2px; }
   footer .social-share {
     position: absolute;
-    background-color: #0e6dad;
+    background-color: #232721;
     right: 0;
     width: 40%;
     height: 100%;
@@ -1240,7 +1240,7 @@ you can use the generic selector below, but it's slower:
    margin-left: -1px;
    width: 2px;
    height: 100%;
-   background: #0e6dad;
+   background: #8e9297;
 }
 
 .timeline-blockrm {
@@ -1316,11 +1316,11 @@ you can use the generic selector below, but it's slower:
 }
 
 .buncomplete{
-border:2px solid #e9774f;border-radius:16px;background:#0e6dad;
+border:2px solid #e9774f;border-radius:16px;background:#232731;
 }
 
 .bcomplete{
-border:2px solid #c1e94f;border-radius:16px;background:#0e6dad;
+border:2px solid #c1e94f;border-radius:16px;background:#232731;
 }
 
 .time{
@@ -1436,7 +1436,7 @@ border:none;
   }
 
   .dwnldtxt{
-  color:#0e6dad;text-align:center;padding:5px 0;
+  color:#232731;text-align:center;padding:5px 0;
   }
 
 .exchangebox{
@@ -1447,7 +1447,7 @@ display:inline-block;
 }
 
 .exchangebox:hover{
-background:#0e6dad;
+background:#232731;
 box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.3);
 transition: 0.8s;
 border-radius:4px;
@@ -1460,7 +1460,7 @@ transition: 0.8s;
 .exchangename{
 text-align:center;
 padding-bottom:8px;
-color:#0e6dad;
+color:#232731;
 }
 
 .techspecs{
