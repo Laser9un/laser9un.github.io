@@ -536,7 +536,7 @@ Features-stack
   position: relative; }
   
 #techinfo{
-  background: #131415;
+  background: #4473c5;
 }
 .earthimg{
   width: 90%;left: 200px;height: auto;
@@ -598,7 +598,7 @@ Features-stack
 ========================================================================== */
 .hero-strip {
   margin-top: 120px;
-  background: #333844 url("../img/SABRpolygonalbg.jpg") no-repeat center center;
+  background: #4473c5 url("../img/SABRpolygonalbg.jpg") no-repeat center center;
   padding-bottom: 190px;
   position: relative; }
   .hero-strip i {
