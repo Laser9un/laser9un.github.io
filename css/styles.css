@@ -535,16 +535,16 @@ Features-stack
 .devices {
   position: relative; }
   
-#results{
+#benefits{
   background: #4473c5;
 }
 .earthimg{
   width: 90%;left: 200px;height: auto;
 }
-#results .iphone-wrap{
+#benefits .iphone-wrap{
   bottom:350px;left: 60%;
 }
-#results .responsive-feature-img{
+#benefits .responsive-feature-img{
   width:115%
   ;top:10px;
   position:relative;
