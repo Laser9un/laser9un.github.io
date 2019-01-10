@@ -555,15 +555,15 @@ Features-stack
 .bs{
   margin-top:-15px;
 }
-#finance .leftcol h3, #finance .leftcol  h5{
+#solutions .leftcol h3, #solutions .leftcol  h5{
   color:white;
   text-align:left;
 }
-#finance .rightcol h3{
+#solutions .rightcol h3{
   color:white;
   text-align:right;
 }
-#finance .rightcol h5{
+#solutions .rightcol h5{
   color:lightblue;
   text-align:right;
 }
