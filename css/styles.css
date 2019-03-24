@@ -394,7 +394,7 @@ Hero
 
 .fixed, .fixed2{
   position: fixed;
-  background-color: #e20025;
+  background-color: #404040;
   z-index: 999;
   width: 100%; }
 
@@ -537,7 +537,7 @@ Features-stack
   position: relative; }
   
 #benefits{
-  background: #e20025;
+  background: #404040;
 }
 .earthimg{
   width: 90%;left: 200px;height: auto;
@@ -599,7 +599,7 @@ Features-stack
 ========================================================================== */
 .hero-strip {
   margin-top: 120px;
-  background: #e20025 url("../img/SABRpolygonalbg.jpg") no-repeat center center;
+  background: #404040 url("../img/SABRpolygonalbg.jpg") no-repeat center center;
   padding-bottom: 190px;
   position: relative; }
   .hero-strip i {
@@ -816,7 +816,7 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #e20025;
+  background-color: #404040;
   position: relative; }
   footer p {
     color: #ACB1B4;
@@ -846,7 +846,7 @@ footer {
     margin: 0 2px; }
   footer .social-share {
     position: absolute;
-    background-color: #e20025;
+    background-color: #404040;
     right: 0;
     width: 40%;
     height: 100%;
