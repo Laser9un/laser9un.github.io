@@ -92,7 +92,7 @@
                     l = !1 !== t(this).data("statsticker"),
                     p = this;
                 t.get({
-                    url: "https://api.coinmarketcap.com/v1/ticker/" + e + "/?ref=widget&convert=" + a,
+                    url: "https://widgets.coinmarketcap.com/v1/ticker/"+v+"/?ref=widget&convert="+x,S.get({url:e,
                     success: function(u) {
                         var h = "price_" + a.toLowerCase(),
                             f = i ? "price_" + i.toLowerCase() : null,
