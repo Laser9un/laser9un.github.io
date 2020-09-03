@@ -31,19 +31,19 @@
         function n(t, e, a) {
             var i = e,
                 r = {
-                    btc: "аёї",
+                    btc: "฿",
                     usd: "$",
-                    eur: "в‚¬",
-                    cny: "ВҐ",
-                    gbp: "ВЈ",
+                    eur: "€",
+                    cny: "¥",
+                    gbp: "£",
                     cad: "$",
                     rub: "<img src='/static/img/fiat/ruble.gif'/>",
                     hkd: "$",
-                    jpy: "ВҐ",
+                    jpy: "¥",
                     aud: "$",
                     brl: "R$",
-                    inr: "в‚№",
-                    krw: "в‚©",
+                    inr: "₹",
+                    krw: "₩",
                     mxn: "$",
                     idr: "Rp",
                     chf: "Fr"
@@ -74,7 +74,7 @@
             var b = "#21fb69";
             p < 0 && (b = "#ff8e8e"), valTickerHTML = m ? "(" + r + ")" : "", valPrice = s ? e(s, n) : "?", valPercentHTML = p ? '<span style="color:' + b + '">(' + p + "%)" : "", valMarketCap = u ? t(u, 2) : "?", valVolume = h ? t(h, 2) : "?", c ? (mainLineHeight = 25, valPriceSecondary = l ? e(l, c) : "?", secondaryHTML = '<br><span style="font-size: 12px; color:gray">' + valPriceSecondary + " " + c + " </span>") : (mainLineHeight = 30, secondaryHTML = "");
             var w = "utm_medium=widget&utm_campaign=cmcwidget&utm_source=" + location.hostname + "&utm_content=" + a,
-                k = '<span style="font-size: 14px; color:#A9A9A9">' + valPrice + " " + n + " " + valPercentHTML + "</span></span>            " + secondaryHTML + '        </div>        ';
+                k = '<span style="font-size: 14px; color:#fff">' + valPrice + " " + n + " " + valPercentHTML + "</span></span>            " + secondaryHTML + '        </div>        ';
             return k += o(v, g, x, y, d, f, valMarketCap, valVolume), k += ''
         }
         a(document).ready(function(t) {
@@ -92,7 +92,7 @@
                     l = !1 !== t(this).data("statsticker"),
                     p = this;
                 t.get({
-                    url: "https://widgets.coinmarketcap.com/v1/ticker/"+v+"/?ref=widget&convert="+x,S.get({url:e,
+                    url: "https://api.coinmarketcap.com/v1/ticker/" + e + "/?ref=widget&convert=" + a,
                     success: function(u) {
                         var h = "price_" + a.toLowerCase(),
                             f = i ? "price_" + i.toLowerCase() : null,
