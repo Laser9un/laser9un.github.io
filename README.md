@@ -1,7 +1,7 @@
 [![42orig256.png](https://s13.postimg.org/u4nl71wxj/42orig256.png/)](https://tr.im/42coin)
 
 
-42-coin - a PoS/PoW based cryptocurrency.
+42-coin - a PoW/PoS based cryptocurrency.
 		
 Specifications
 --------------
