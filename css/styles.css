@@ -410,7 +410,7 @@ header {
     text-transform: uppercase;
     font-size: 13px; }
     header a.login {
-      margin-right: 20px; }
+      margin-left: 20px; }
   header .logo {
     display: inline-block; }
   header ul.primary-nav {
@@ -420,13 +420,13 @@ header {
       display: inline; }
       header ul.primary-nav li a {
         color: #fff;
-        padding-right: 25px;
+        padding-left: 25px;
         position: relative;
        }
         header ul.primary-nav li a:hover {
           color: #e2a43f; }
       header ul.primary-nav li:last-child a {
-        padding-right: 0px; }
+        padding-left: 0px; }
   header ul.member-actions li {
     display: inline; }
     header ul.member-actions li a {
