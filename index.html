@@ -2273,14 +2273,9 @@ footer {
       const container = document.getElementById('exchangesGrid');
       if (!container) return;
       const exchanges = [
-        { name: 'FreiExchange', url: 'https://freiexchange.com' },
-        { name: 'BTC-Trade', url: 'https://btc-trade.com.ua' },
-        { name: 'CrexSoft', url: 'https://crexsoft.com' },
-        { name: 'XBTS', url: 'https://ex.xbts.io' },
-        { name: 'MintMe', url: 'https://www.mintme.com' },
-        { name: 'Komodo DEX', url: 'https://app.komodoplatform.com' },
-        { name: 'PancakeSwap', url: 'https://pancakeswap.finance' },
-        { name: 'Dragon Wallet', url: 'https://t.me/DragonWalletBot' }
+        { name: 'eIquidus', url: 'https://explorer.nova-coin.org' },
+		{ name: 'cryptoID', url: 'https://chainz.cryptoid.info/nvc/' },
+        { name: 'novaco.in', url: 'https://explorer.novaco.in' }
       ];
       container.innerHTML = exchanges.map(exchange => `
         <a href="${exchange.url}" target="_blank" class="exchange-card">
